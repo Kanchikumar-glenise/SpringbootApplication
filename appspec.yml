@@ -24,7 +24,3 @@ hooks:
     - location: /server_validate.sh
       timeout: 60
       runas: ec2-user
-  AfterInstall:
-    - location: scripts/after-install.sh
-      timeout: 60
-      runas: ec2-user
