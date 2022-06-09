@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ec2-user/server
+    destination: /home/ec2-user/opt/codedeploy-agent/deployment-root/66deb428-18ec-4080-bedc-91ddfc5bbc01/d-6DORSHORG/deployment-archive/scripts/
 
 permissions:
   - object: /
